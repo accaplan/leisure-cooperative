@@ -12,7 +12,7 @@ const Submit = () => {
   // Simple controlled form setup (Control your own state)
   const handleChange = e => setFormValues({ ...formValues, [e.target.name]: e.target.value })
   const [formValues, setFormValues] = useState({
-    
+
     // Primary info
     submitContact: '',
     submitName:'',
@@ -20,7 +20,7 @@ const Submit = () => {
     submitSocial:'',
     submitNeighborhood:'',
     submitSize:'',
-    
+
     // tags
     rendering:'',
     advertising:'',
@@ -69,126 +69,126 @@ const Submit = () => {
       <NetlifyForm formName="Submit - Notion" formValues={formValues} postSubmit={postSubmit} >
 
 <div className="submit-wrapper">
-      
+
         <div className="submit-written">
-        
-        <label htmlFor="submit-contact">What is your email?</label> 
+
+        <label htmlFor="submit-contact">What is your username?</label>
         <input
           className="submit-form form-control valid"
           name="submitContact"
           id="submit-contact"
-          type="email"         
-          placeholder="Your email address"
-          value={formValues.name} 
-          onChange={handleChange} 
+          type="email"
+          placeholder="Username"
+          value={formValues.name}
+          onChange={handleChange}
           required
           tabindex="0"
         />
 
-        <label htmlFor="submit-name">What is the name of your business?</label>        
+        <label htmlFor="submit-name">What is your ElementID?</label>
         <input
           className="submit-form"
           name="submitName"
           id="submit-name"
           type="text"
-          placeholder="Business name"
-          value={formValues.name} 
-          onChange={handleChange} 
+          placeholder="ElementID"
+          value={formValues.name}
+          onChange={handleChange}
           required
           tabindex="0"
         />
 
-        <label htmlFor="submit-website">Business website or primary web address:</label>        
+        <label htmlFor="submit-website">Business website or primary web address:</label>
         <input
           className="submit-form form-control valid"
           name="submitWebsite"
           id="submit-website"
           type="text"
           placeholder="Primary url"
-          value={formValues.name} 
+          value={formValues.name}
           onChange={handleChange}
           required
           tabindex="0"
         />
 
-        <label htmlFor="submit-social">Any social accounts or additional urls you want to include?</label>        
+        <label htmlFor="submit-social">Any social accounts or additional urls you want to include?</label>
         <input
           className="submit-form"
           name="submitSocial"
           id="submit-social"
           type="text"
           placeholder="@socials, etc"
-          value={formValues.name} 
+          value={formValues.name}
           onChange={handleChange}
           tabindex="0"
         />
 
-        <label htmlFor="submit-neighborhood">What neighborhood is your primary location in?</label> 
+        <label htmlFor="submit-neighborhood">What neighborhood is your primary location in?</label>
         <input
           className="submit-form form-control valid"
           name="submitNeighborhood"
           id="submit-neighborhood"
           type="text"
           placeholder="Neighborhood you're based in"
-          value={formValues.name} 
+          value={formValues.name}
           onChange={handleChange}
           required
           tabindex="0"
         />
         </div>
 
-        <p>How many people work with you?</p>
-        <div className="submit-size">        
+        <p>What do you have to offer?</p>
+        <div className="submit-size">
             <input
                 className="submit-form form-control valid"
                 name="submitSize"
                 id="sizeSmall"
                 value="1-4"
-                type="radio" 
+                type="radio"
                 onChange={handleChange}
                 required
             />
-            <label tabindex="0" htmlFor="sizeSmall">1-4</label>
-            
+            <label tabindex="0" htmlFor="sizeSmall">Space</label>
+
             <input
                 className="submit-form form-control valid"
                 name="submitSize"
                 id="sizeMedium"
                 value="11-40"
-                type="radio" 
+                type="radio"
                 onChange={handleChange}
             />
-            <label tabindex="0" htmlFor="sizeMedium">11-40</label> 
+            <label tabindex="0" htmlFor="sizeMedium">Transportation</label>
 
             <input
                 className="submit-form form-control valid"
                 name="submitSize"
                 id="sizeLarge"
                 value="41-100"
-                type="radio" 
+                type="radio"
                 onChange={handleChange}
             />
-            <label tabindex="0" htmlFor="sizeLarge">41-100</label> 
+            <label tabindex="0" htmlFor="sizeLarge">Goods</label>
 
             <input
                 className="submit-form form-control valid"
                 name="submitSize"
                 id="sizeHuge"
                 value="100+"
-                type="radio" 
+                type="radio"
                 onChange={handleChange}
             />
-            <label tabindex="0" htmlFor="sizeHuge">100+</label> 
+            <label tabindex="0" htmlFor="sizeHuge">Knowledge</label>
         </div>
 
         <p>What kinds of work do you do?</p>
         <div className="submit-select">
-        <fieldset>      
-            <legend>What kinds of work do you do?</legend>      
-            
+        <fieldset>
+            <legend>What kinds of work do you do?</legend>
+
             <input type="checkbox" name="rendering" value="3D rendering" id="rendering" onChange={handleChange}/>
             <label tabindex="0" htmlFor="rendering">3D rendering</label>
-            
+
             <input type="checkbox" name="advertising" value="advertising" id="advertising" onChange={handleChange}/>
             <label tabindex="0" htmlFor="advertising">advertising</label>
 
@@ -291,57 +291,67 @@ const Submit = () => {
             <input type="checkbox" name="eCommerce" value="eCommerce" id="eCommerce" onChange={handleChange}/>
             <label tabindex="0" htmlFor="eCommerce">eCommerce</label>
 
-        </fieldset> 
+        </fieldset>
         </div>
 
         <div className="submit-bonus">
-          <p>Would you like to be a guest on the show? Or do you want to hear from someone specifically?</p>
-          <label htmlFor="submit-guest">Would you like to be a guest on the show? Or do you want to hear from someone specifically?</label> 
+          <p>Would you like to sponsor us?</p>
+          <label htmlFor="submit-guest">Would you like to be a guest on the show? Or do you want to hear from someone specifically?</label>
           <input
             className="submit-form form-control valid"
             name="submitGuest"
             id="submit-guest"
             type="text"
-            placeholder="Anyone in the community qualifies to be a part it"
-            value={formValues.name} 
+            placeholder="We accept advertising partnerships to fund development of the platform"
+            value={formValues.name}
             onChange={handleChange}
             tabindex="0"
           />
 
 
-          <p>Would you buy a hardcopy printed directory?</p> 
-          <label htmlFor="submit-print">Would you buy a hardcopy printed directory?</label> 
+          <p>Would you be willing to join the meetings?</p>
+          <label htmlFor="submit-print">Would you be willing to join the meetings?</label>
           <input
             className="submit-form form-control valid"
             name="submitPrint"
             id="submit-print"
             type="text"
-            placeholder="A beautiful resource or the internet is fine"
-            value={formValues.name} 
+            placeholder="I would love to join"
+            value={formValues.name}
+            onChange={handleChange}
+            tabindex="0"
+          />
+          <input
+            className="submit-form form-control valid"
+            name="submitPrint"
+            id="submit-print"
+            type="text"
+            placeholder="Not at the moment"
+            value={formValues.name}
             onChange={handleChange}
             tabindex="0"
           />
 
-          <p>If you have any questions or suggestions, let us know:</p> 
-          <label htmlFor="submit-notes">If you have any questions or suggestions, let us know:</label> 
+          <p>If you have any questions or suggestions, let us know:</p>
+          <label htmlFor="submit-notes">If you have any questions or suggestions, let us know:</label>
           <input
             className="submit-form form-control valid"
             name="submitNotes"
             id="submit-notes"
             type="text"
             placeholder="Any additional types of work, urls, feelings"
-            value={formValues.name} 
+            value={formValues.name}
             onChange={handleChange}
             tabindex="0"
           />
-        </div>     
+        </div>
 
         <button type="submit" className="submit-form-button">
           Submit
         </button>
-      
+
 </div>
-        
+
       </NetlifyForm>
   )
 }

@@ -6,20 +6,20 @@ class About extends Component {
         <React.Fragment>
         <div className="aboutContent">
             <p>
-            This is a phonebook for you and your creative peers in the Pacific Northwest. We also have an interview series called the Seattle Creative Show that can either be found on the homepage, in your favorite podcast player or <a href="https://seattlecreative.show/">see all available platforms here.</a> If you have any questions or suggestions please feel free to reach out <a href="mailto:jonny@seattlecreative.directory" target="_blank">in email.</a>
+            This is a directory for enjoying productive leisure. Compiled to share our resources, knowledge and time for the benefit of our community and nature.
             </p>
             <p>
-            🔎 For more behind the scenes, there's a real nice <a href="http://marketingnw.com/new-seattle-creative-directory/">write up in Marketing Northwest on the project</a> that you can check out.
+            Remember the worker cooperative movement? It's a little like that. We need more space and networks to share and participate in conscious leisure activities. Part of a post-growth economy.
             </p>
             <p>
-            📓 To submit a new entry, please answer <a href="https://forms.gle/5rwbdmCDipjwtBJY8" target="_blank">a few questions</a> about your creative business.
+            📓 To submit a new entry, please answer <a href="https://forms.gle/5rwbdmCDipjwtBJY8" target="_blank">a few questions</a> to join our cooperative.
             </p>
             <p>
-            Created with love by<br />
-            <a href="https://twitter.com/jonmccon" target="_blank">Jonny McConnell</a><br />
-            <a href="https://www.instagram.com/ben_busy" target="_blank">Ben Hubbard</a><br />
-            <a href="https://sea-to-sound.com" target="_blank">Lee Gehrig</a><br />
-            <a href="https://github.com/jonmccon/seattle-creative-directory">Source</a>
+            A sister organization of regenerative placemakers.<br />
+            <a href="https://idlehours.co" target="_blank">The Idle Hours Company</a><br />
+            <a href="https://infiniteplaces.org" target="_blank">Infinite Places</a><br />
+            <a href="https://enoughstructures.com.com" target="_blank">Enough Structures</a><br />
+            <a href="mailto:info@infiniteplaces.org">E-mail us.</a>
             </p>
 
         </div>

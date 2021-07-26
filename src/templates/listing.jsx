@@ -67,54 +67,54 @@ class Listing extends React.Component {
 
         <div className="pattern">
           <div className="container">
-            
+
             <Logo />
             <HeadlineMenuLeft />
             <HeadlineMenuRight />
             <div className="headline-wrapper">
             <Headline
               headline={
-                "Cataloging the creative studios of the Pacific Northwest."
+                "Established to create a circular economy for Leisure enthusiasts."
               }
             />
             </div>
-            
+
             {/* PODCAST SHOW */}
             <div id="showContainer">
               <div className="podcast">
                 <PodcastPlayer
                   podcastSeason="S2:EP5"
                   podcastTitle="Tessa Levine-Sauerhoff & Felix Chang of Artefact"
-                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/fbcb8e91-6628-4147-aef6-d5b3a08c8986/audio/00ba3747-d513-4066-8027-a3e511e685f5/default_tc.mp3"  
+                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/fbcb8e91-6628-4147-aef6-d5b3a08c8986/audio/00ba3747-d513-4066-8027-a3e511e685f5/default_tc.mp3"
                 />
               </div>
             </div>
-            
+
             {/* FILTERS */}
             <div className="filters">
               <PostCats cats={ allCats} />
               <PostTags tags={allTags} />
             </div>
-            
+
 
 
             {/* DIRECTORY LISTING */}
             <div className="directory">
-              {/*             
-                  
+              {/*
+
                   Build a loop that counts characters and feeds them to the graphQL query variable
 
                   var charCode = "A".charCodeAt(0);    // 65
                   charCode += 1;
-                  var next = String.fromCharCode(charCode);      // "B" 
-                  
+                  var next = String.fromCharCode(charCode);      // "B"
+
                   */}
 
               <div className="directory-block">
-                
+
                 <div className="directory-block--title"><a id="A"></a>A</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryA} />
-                
+
                 <div className="directory-block--title"><a id="B"></a>B</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryB} />
 
@@ -131,7 +131,7 @@ class Listing extends React.Component {
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryF} />
 
               </div>
-              
+
               <div className="directory-block">
 
                 <div className="directory-block--title"><a id="G"></a>G</div>
@@ -148,7 +148,7 @@ class Listing extends React.Component {
 
                 <div className="directory-block--title"><a id="K"></a>K</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryK} />
-                
+
                 <div className="directory-block--title"><a id="L"></a>L</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryL} />
 
@@ -157,10 +157,10 @@ class Listing extends React.Component {
 
                 <div className="directory-block--title"><a id="N"></a>N</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryN} />
-                
+
               </div>
 
-              <div className="directory-block">              
+              <div className="directory-block">
 
                 <div className="directory-block--title"><a id="O"></a>O</div>
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryO} />
@@ -178,7 +178,7 @@ class Listing extends React.Component {
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryS} />
 
               </div>
-              
+
               <div className="directory-block">
 
                 <div className="directory-block--title"><a id="T"></a>T</div>
@@ -203,27 +203,27 @@ class Listing extends React.Component {
                 <DirectoryListing postEdgesDirectory={postEdgesDirectoryZ} />
 
                 <div className="directory-block--title"><a id="numbers"></a>#</div>
-                <DirectoryListing postEdgesDirectory={postEdgesDirectoryNumbers}/> 
+                <DirectoryListing postEdgesDirectory={postEdgesDirectoryNumbers}/>
 
-                <div className="directory-block--title" id="endcap">*</div>       
+                <div className="directory-block--title" id="endcap">*</div>
                 <div className="directory-block--end">
                   <p>Don't see yourself?</p>
-                  
+
                   <p>
                   <Link
-                    className="directory-endcap--link highlight" 
+                    className="directory-endcap--link highlight"
                     to="/submit">Get Listed
                   </Link>
                   </p>
 
                 </div>
-                
-                
+
+
               </div>
-                   
+
             </div>
 
-            
+
 
             {/* <div className="bottomSpacer"></div> */}
 

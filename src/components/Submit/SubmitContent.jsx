@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <div className="pattern">
       <div className="container">
-        
+
         <Logo />
         <HeadlineMenuLeft />
         <HeadlineMenuRight />
@@ -20,14 +20,14 @@ class About extends Component {
 
         <div className="submitContent">
             <p>
-                Hotdog, if you'd like to be included please fill out this short set of questions
-                If you just want to email us, send a note to jonny@seattlecreative.directory
+                If you like to be included please fill out this short set of questions
+                If you just want to email us, send a note to info@infiniteplaces.org
             </p>
-        
+
 
         <Submit />
         </div>
-      
+
       </div>
       </div>
     );
