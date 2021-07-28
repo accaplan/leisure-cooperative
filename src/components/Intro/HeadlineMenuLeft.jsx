@@ -8,27 +8,27 @@ class HeadlineMenuLeft extends Component {
     return (
       <React.Fragment>
 
-        <div className="headline-menu-left">  
-          
+        <div className="headline-menu-left">
+
           {/* <Link
-          className="headline-menu--link highlight" 
+          className="headline-menu--link highlight"
           to="/submit">Get Listed
           </Link> */}
 
           <a
             className="headline-menu--link"
             target="_blank"
-            href="https://seattlecreative.show/"
+            href="https://8lqyuucfjae.typeform.com/to/m1pPcmt4"
           >
-            Listen
+            Join
           </a>
 
           <Link
-          className="headline-menu--link" 
+          className="headline-menu--link"
           to="/about">About
           </Link>
-          
-          
+
+
         </div>
       </React.Fragment>
     );
