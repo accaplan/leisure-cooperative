@@ -30,12 +30,12 @@
     --text-mono--itemHighlight: 600;
     --text-mono-menu: 400 .8rem JetBrains-Mono, sans-serif;
     --text-mono-title: 800 1.5em JetBrains-Mono, sans-serif;
-    --text-serif-std: 400 2.8em Spectral, serif;
-    --text-serif-body: 400 1.5em Spectral, serif;
-    --text-serif-bld: 700 1em Spectral, serif;
-    --text-serif-title: 600 3em Spectral, serif;
-    --text-serif-label: 400 .8em Spectral, serif;
-    --text-serif--item: 400 1.1em Spectral, serif;
+    --text-serif-std: 400 2.8em SpaceGrotesk, serif;
+    --text-serif-body: 400 1.5em Space Grotesk, serif;
+    --text-serif-bld: 700 1em Space Grotesk, serif;
+    --text-serif-title: 600 3em Space Grotesk, serif;
+    --text-serif-label: 400 .8em Space Grotesk, serif;
+    --text-serif--item: 400 1.1em Space Grotesk, serif;
     --text-gin-std: 400 4em Gin-and-Soda, sans-serif;
     --text-gin-small: 400 2em Gin-and-Soda, sans-serif;
     /* --text-tag-toggle: put in the styles from the test br subscribe button here */

@@ -12,7 +12,7 @@ export default class MainLayout extends React.Component {
           <meta name="description" content={config.siteDescription} />
           <meta name="viewport" content="width=device-width" />
           <html lang="en" />
-          <link href="https://fonts.googleapis.com/css2?family=Spectral" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet" />
         </Helmet>
         {children}
       </div>

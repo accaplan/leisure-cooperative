@@ -3,7 +3,7 @@
 /* Google hosted fonts */
 /* -------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
 
 
@@ -26,8 +26,8 @@
   font-style: italic;
   font-weight: 400;
   src: local('JetBrains Mono Italic'), local('JetBrains-Mono-Italic'),
-       url('../fonts/woff2/JetBrainsMono-Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/woff/JetBrainsMono-Italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../fonts/woff2/Compagnon-Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/woff/Compagnon-Italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* JetBrains - Medium */
@@ -36,8 +36,8 @@
   font-style: normal;
   font-weight: 500;
   src: local('JetBrains Mono Medium'), local('JetBrains-Mono-Medium'),
-       url('../fonts/woff2/JetBrainsMono-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/woff/JetBrainsMono-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../fonts/woff2/Compagnon-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/woff/Compagnon-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* JetBrains - Medium Italic */
@@ -66,8 +66,8 @@
   font-style: italic;
   font-weight: 700;
   src: local('JetBrains Mono Bold Italic'), local('JetBrains-Mono-Bold-Italic'),
-       url('../fonts/woff2/JetBrainsMono-Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/woff/JetBrainsMono-Italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../fonts/woff2/Compagnon-Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/woff/Compagnon-Italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* JetBrains - Extra Bold */
@@ -76,8 +76,8 @@
   font-style: normal;
   font-weight: 900;
   src: local('JetBrains Mono Extra Bold'), local('JetBrains-Mono-Extra-Bold'),
-       url('../fonts/woff2/JetBrainsMono-ExtraBold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/woff/JetBrainsMono-ExtraBold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../fonts/woff2/Sporting_Grotesque-Bold_web.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/woff/Sporting_Grotesque-Bold_web.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* JetBrains - ExtraBold Italic */
@@ -86,8 +86,8 @@
   font-style: italic;
   font-weight: 900;
   src: local('JetBrains Mono ExtraBold Italic'), local('JetBrains-Mono-ExtraBold-Italic'),
-       url('../fonts/woff2/JetBrainsMono-ExtraBold-Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/woff/JetBrainsMono-ExtraBold-Italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../fonts/woff2/Compagnon-Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/woff/Compagnon-Italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 
@@ -96,7 +96,7 @@
   font-family: 'Gin-and-Soda';
   font-style: normal;
   font-weight: 400;
-  src: local('GinandSoda'), local('Ginadsoda'),
+  src: local('GinandSoda'), local('Ginandsoda'),
        url('../fonts/woff2/GinandSoda.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/woff/GinandSoda.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

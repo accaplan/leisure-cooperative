@@ -25,11 +25,11 @@
     /* grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 10em 1fr); */
     grid-gap: .5em;
-    grid-auto-flow: dense;     
+    grid-auto-flow: dense;
     margin-top: 80%;
     max-width: 270px;
-   
-    
+
+
 }
 
 /* ----------------------------------------------- */
@@ -43,7 +43,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr 8em;
     grid-gap: .5em;
-    grid-auto-flow: dense;    
+    grid-auto-flow: dense;
     max-width: 900px;
     background-color: var(--color-card);
     /* border: 3px solid #DBDBDB; */
@@ -74,7 +74,7 @@
 /* ARTICLE */
 
 p {
-    font: 400 1.5em Spectral, serif;
+    font: 400 1.5em Space Grotesk, serif;
 }
 
 
@@ -85,7 +85,7 @@ p {
 }
 
 .interviewer {
-    
+
 }
 
 .one {
