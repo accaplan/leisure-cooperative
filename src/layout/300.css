@@ -1,12 +1,12 @@
 /* MOBILE SCREEN */
 
-@media only screen and (min-width: 300px) { 
+@media only screen and (min-width: 300px) {
 
     h1 {
         font: var(--text-mono-headline);
         line-height: 140%;
     }
-    
+
     h2 {
         /* font: 600 1em Spectral, serif; */
     }
@@ -33,7 +33,7 @@
         grid-template-columns: 1.5em repeat(6, 1fr) 1.5em;
         grid-template-rows: 1fr auto auto auto auto auto auto 8em;
         grid-gap: .5em;
-        grid-auto-flow: dense;    
+        grid-auto-flow: dense;
         min-height: 50vmin;
         max-width: 400px;
         margin: 0 auto;
@@ -49,7 +49,7 @@
             ".              Directory       Directory       Directory       Directory       Directory       Directory       ."
             ".              Footer          Footer          Footer          Footer          Footer          Footer          ."
             ;
-    }  
+    }
 
     .logo {
         display: grid;
@@ -57,14 +57,14 @@
         background-image: url(../static/scLogo.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        height: 4em; 
+        height: 4em;
         margin: 10vh 0 0 0;
         align-self: top;
         background-position: center;
     }
 
     /* ----------------------------------------------- */
-    
+
     /* HEADLINE */
     .headline {
         display: grid;
@@ -100,7 +100,7 @@
         display: block;
         margin: 0 0 0 0;
     }
-    
+
     .headline-menu-right {
         margin: -4vh 0 0 0;
         grid-area: MenuRight;
@@ -132,9 +132,10 @@
 
     .headline-menu--link:hover, .email-form-button:hover, .submit-form-button:hover {
         background: var(--color-bg-coral);
-        box-shadow: -.15em .15em 2px var(--color-listingHover-shadow);
+        border-style: solid;
+        border-color: var(--color-border-black);
+        border-width: thin;
         cursor: pointer;
-        text-decoration: underline;
     }
     /* ----------------------------------------------- */
 
@@ -230,7 +231,7 @@
     .submit-wrapper p {
         margin: 3em 0 0 0;
     }
-    
+
 
     /* ----------------------------------------------- */
 
@@ -262,7 +263,7 @@
     /* Audio player overrides */
 
     .rhap_container {
-        -webkit-box-shadow: none !important; 
+        -webkit-box-shadow: none !important;
         box-shadow: none !important;
         padding: 0 0 0 0 !important;
         /* border: 5px solid var(--color-bg-coral); */
@@ -311,7 +312,7 @@
 
     .audioPlayer-small .rhap_container {
         display: inline-block;
-        -webkit-box-shadow: none; 
+        -webkit-box-shadow: none;
         border: none;
         box-shadow: none;
         border-radius: none;
@@ -326,7 +327,7 @@
         display: inline-block;
         flex: none;
     }
-    
+
     .audioPlayer-small .rhap_play-pause-button {
         /* background-color: var(--color-test); */
         width: min-content;
@@ -338,7 +339,7 @@
     .audioPlayer-small .rhap_current-time {
         display: none;
     }
-    
+
     .audioPlayer-small .rhap_progress-container {
         display: none;
     }
@@ -393,7 +394,7 @@
         text-shadow: 0em .05em 1px var(--color-card-half);
         margin: .1em 0 0 0;
     }
-    
+
     .directory-block--title {
         /* background-color: var(--color-bg-gray); */
         color: var(--color-text);
@@ -461,10 +462,10 @@
         /* text-transform: uppercase; */
     }
 
-    .filter-cat-container {        
+    .filter-cat-container {
     }
 
-    .filter-tag-container {  
+    .filter-tag-container {
     }
 
     .filter-cat--jump {
@@ -507,7 +508,7 @@
         height: fit-content;
     }
 
-    
+
 
 
 
@@ -558,6 +559,5 @@
 
     /* ----------------------------------------------- */
 
-    
-}
 
+}

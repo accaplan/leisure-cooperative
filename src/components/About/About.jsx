@@ -10,16 +10,16 @@ class About extends Component {
     return (
       <div className="pattern">
       <div className="container">
-        
+
         <Logo />
         <HeadlineMenuLeft />
         <HeadlineMenuRight />
         <div className="headline-wrapper-small">
-          <Headline headline={`Hello & welcome.`} />
+          <Headline headline={`Welcome.`} />
         </div>
         <AboutContent />
-        
-      
+
+
       </div>
       </div>
     );

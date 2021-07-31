@@ -7,29 +7,29 @@ class Footer extends Component {
     // const { config } = this.props;
     // // const url = config.siteRss;
     // const { copyright } = config;
-    
+
     return (
       <footer className="footer">
 
           <Link
-            className="highlight" 
+            className="highlight"
             to="/submit">Get Listed
-          </Link> 
-        
+          </Link>
+
           <a
             target="_blank"
-            href="https://github.com/jonmccon/seattle-creative-directory"
+            href="https://romanceoffice.com"
           >
-             Made in the PNW
+             From Romance Office
           </a>
 
           <a
             target="_blank"
-            href="https://www.instagram.com/seattlecreative.directory/"
+            href="https://www.instagram.com/leisurecooperative/"
           >
-             Follow on Instagram
+             Instagram
           </a>
-          
+
 
       </footer>
     );

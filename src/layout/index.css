@@ -8,9 +8,10 @@
 /* COLOR VARIABLES */
 :root {
     --color-transparent: rgba(255, 255, 255, 0);
-    --color-bg-coral: rgba(255, 173, 161, 1);
-    --color-bg-coral-half: rgba(255, 173, 161, 0.5);
-    --color-bg-coral-dark: rgb(247, 130, 112);
+    --color-bg-coral: rgba(255, 255, 255, 0);
+    --color-bg-coral-half: rgba(255, 255, 255, 0);
+    --color-bg-coral-dark: rgb(255, 255, 255);
+    --color-border-black: rgb(0,0,0);
     --color-bg-gray: rgba(113, 64, 96, 0.05);
     --color-bg-gray-dark: rgb(214, 214, 214);
     --color-text: rgb(41, 41, 41);

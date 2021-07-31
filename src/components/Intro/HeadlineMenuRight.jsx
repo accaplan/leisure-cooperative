@@ -10,7 +10,7 @@ class HeadlineMenuRight extends Component {
     return (
       <React.Fragment>
 
-        <div className="headline-menu-right">  
+        <div className="headline-menu-right">
           <EmailForm />
 
           {/* <a
@@ -19,7 +19,7 @@ class HeadlineMenuRight extends Component {
           >
             About
           </a> */}
-          
+
         </div>
       </React.Fragment>
     );

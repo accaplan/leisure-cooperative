@@ -74,20 +74,9 @@ class Listing extends React.Component {
             <div className="headline-wrapper">
             <Headline
               headline={
-                "Established to create a circular economy for Leisure enthusiasts."
+                "Established to create a circular economy for leisure enthusiasts."
               }
             />
-            </div>
-
-            {/* PODCAST SHOW */}
-            <div id="showContainer">
-              <div className="podcast">
-                <PodcastPlayer
-                  podcastSeason="S2:EP5"
-                  podcastTitle="Tessa Levine-Sauerhoff & Felix Chang of Artefact"
-                  podcastURL="https://cdn.simplecast.com/audio/30dabfb8-c618-43a5-81c7-c5c83750983a/episodes/fbcb8e91-6628-4147-aef6-d5b3a08c8986/audio/00ba3747-d513-4066-8027-a3e511e685f5/default_tc.mp3"
-                />
-              </div>
             </div>
 
             {/* FILTERS */}
