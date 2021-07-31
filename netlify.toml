@@ -10,9 +10,9 @@
 
 [[plugins]]
 # Build time link checker
-# package = "netlify-plugin-checklinks"
+package = "netlify-plugin-checklinks"
 
-  [plugins.inputs]
+ [plugins.inputs]
   todoPatterns = [
     # Server rejections but not fails
     "406",
