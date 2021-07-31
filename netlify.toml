@@ -10,7 +10,7 @@
 
 [[plugins]]
 # Build time link checker
-package = "netlify-plugin-checklinks"
+# package = "netlify-plugin-checklinks"
 
   [plugins.inputs]
   todoPatterns = [
@@ -19,7 +19,7 @@ package = "netlify-plugin-checklinks"
     "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
     "ERR_TLS_CERT_ALTNAME_INVALID",
     "EAI_AGAIN",
-    
+
     # hard fails
     "500",
     "400",
@@ -27,7 +27,7 @@ package = "netlify-plugin-checklinks"
     "ECONNRESET",
     "DNS missing:",
     "https://design.facebook.com/",
-    
+
     # Interview pages are generated but unused right now
     'id="interview"'
     ]
