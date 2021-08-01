@@ -10,10 +10,10 @@
 
 # [[plugins]]
 # Build time link checker
-package = "netlify-plugin-checklinks"
+# package = "netlify-plugin-checklinks"
 
 # [plugins.inputs]
-  todoPatterns = [
+# todoPatterns = [
     # Server rejections but not fails
     "406",
     "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
@@ -29,9 +29,9 @@ package = "netlify-plugin-checklinks"
     "https://design.facebook.com/",
 
     # Interview pages are generated but unused right now
-    'id="interview"'
+  #  'id="interview"'
     ]
-  skipPatterns = [
+  # skipPatterns = [
     # assets that don't like the check
     "www.google-analytics.com",
     "https://fonts.googleapis.com/",
