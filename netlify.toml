@@ -30,7 +30,7 @@
 
     # Interview pages are generated but unused right now
   #  'id="interview"'
-    ]
+  #  ]
   # skipPatterns = [
     # assets that don't like the check
   #  "www.google-analytics.com",
