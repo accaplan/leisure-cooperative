@@ -43,4 +43,4 @@
 #  ]
 
   #turn this off to speed up buildtime
-  checkExternal = false
+  # checkExternal = false
