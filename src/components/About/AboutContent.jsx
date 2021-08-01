@@ -12,7 +12,7 @@ class About extends Component {
             Remember the worker cooperative movement? It's a little like that. We need more space and networks to share and participate in conscious leisure activities. Part of a post-growth economy.
             </p>
             <p>
-            Join our Element chat <a href="https://https://matrix.to/#/#leisurecoop:matrix.org" target="_blank">LeisureTalk</a> on our decentralised communication network.
+            Join our Element chat <a href="https://matrix.to/#/#leisurecoop:matrix.org" target="_blank">Leisure Talk</a> on our decentralised communication network.
             </p>
             <p>
             We are a sister organization of like-minded regenerative placemakers.<br />
