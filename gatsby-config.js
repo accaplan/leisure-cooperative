@@ -97,8 +97,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Seattle Creative Directory`,
-        short_name: `Seattle Creative`,
+        name: `Leisure Cooperative`,
+        short_name: `Leisure Coop`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FEADA3`,

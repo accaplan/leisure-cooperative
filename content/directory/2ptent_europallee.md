@@ -1,12 +1,12 @@
 ---
 title: "2 person REI tent"
 featuredImage: ./-hamburgers.png
-website: "https://leisure-cooperative-staging.netlify.app/camping-2p-tent-rei/"
+website: "/camping-2p-tent-rei/"
 twit: ""
 inst: ""
-category: "camping"
+category: "numbers"
 tags:
-    - Europallee
+    - Europaallee
     - goods
     - camping
     - backpacking
