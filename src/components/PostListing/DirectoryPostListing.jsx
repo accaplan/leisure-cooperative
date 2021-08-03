@@ -21,29 +21,29 @@ class DirectoryPostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      
+
       <div className="directory-list">
         {postList.map((post) => (
           <React.Fragment>
-            {/* 
-            Have a class added for each tag that's present. 
+            {/*
+            Have a class added for each tag that's present.
             Add an additional a:hover class for each that changes its own display.
-            Needs to be added to the tag listing as well. 
+            Needs to be added to the tag listing as well.
             */}
 
-            
+
 
             <div className="directory-block--item">
-              
+
               <a href={post.website} target="_blank">{post.title}</a>
-              
-              {post.episodePromo ? 
-              <div className="episodePromo">{post.episodePromo && post.episodePromo}</div> : '' 
+
+              {post.episodePromo ?
+              <div className="episodePromo">{post.episodePromo && post.episodePromo}</div> : ''
               }
 
-              {post.episode ? 
-              <AudioPlayerSmall 
-                podcastURL={post.episode && post.episode} /> : '' 
+              {post.episode ?
+              <AudioPlayerSmall
+                podcastURL={post.episode && post.episode} /> : ''
               }
 
               {/* <PostTags tags={post.tags} /> */}
@@ -52,7 +52,7 @@ class DirectoryPostListing extends React.Component {
           </React.Fragment>
 
         ))}
-        
+
       </div>
     );
   }
