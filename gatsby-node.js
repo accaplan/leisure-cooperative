@@ -146,7 +146,7 @@ exports.createPages = async ({ graphql, actions }) => {
       });
     }
 
-    else if (edge.node.frontmatter.category === "interview") {
+    else if (edge.node.frontmatter.category === "news") {
       // else interview
 
       createPage({
