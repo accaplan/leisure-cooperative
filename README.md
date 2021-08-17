@@ -1,5 +1,4 @@
-Hosted on Netlify, Master will deploy on production everytime it's merged into at `seattlecreative.directoy`
-Test will create it's own deployment at `test.seattlecreative.directoy`
+Hosted on Netlify, Master will deploy on production everytime it's merged into at `leisure.coop`
 
 Deploy pipeline builds a Gatsby bundle, double checks internal links for sanity and checks external links to make sure they resolve somewhat appropritely. Exceptions as marked in the `netlify.toml` file
 
