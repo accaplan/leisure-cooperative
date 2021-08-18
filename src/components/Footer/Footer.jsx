@@ -18,11 +18,11 @@ class Footer extends Component {
 
           <a
             target="_blank"
-            href="https://romanceoffice.com"
+            href="https://infiniteplaces.org"
           >
-             From Romance Office
+            An Infinite Places Project
           </a>
-
+          
           <a
             target="_blank"
             href="https://www.instagram.com/leisurecooperative/"

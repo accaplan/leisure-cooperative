@@ -167,7 +167,7 @@
     }
 
     .email-form-button {
-        background: var(--color-card);
+        background: none;
         border: 0 none var(--color-card);
         padding: .3em .4em .2em .4em;
         margin: .6em 0 .1em .5em;

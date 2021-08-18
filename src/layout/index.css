@@ -31,7 +31,7 @@
     --text-mono--itemHighlight: 600;
     --text-mono-menu: 400 .8rem JetBrains-Mono, sans-serif;
     --text-mono-title: 800 1.5em JetBrains-Mono, sans-serif;
-    --text-serif-std: 400 2.8em SpaceGrotesk, serif;
+    --text-serif-std: 400 2.8em Space Grotesk, serif;
     --text-serif-body: 400 1.5em Space Grotesk, serif;
     --text-serif-bld: 700 1em Space Grotesk, serif;
     --text-serif-title: 600 3em Space Grotesk, serif;
@@ -52,6 +52,7 @@ body {
     font-size: 16px;
     line-height: 1.3em;
     color: var(--color-text);
+    background-color: #D3FFCC;
 }
 
 a {
